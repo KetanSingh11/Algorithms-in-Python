@@ -1,8 +1,8 @@
 """ ### Find the Second Largest Number in a List/Array ###
-ref: https://www.hackerrank.com/challenges/find-second-maximum-number-in-a-list
+Ref: https://www.hackerrank.com/challenges/find-second-maximum-number-in-a-list
 
 Input Format:
-The first line contains NN. The second line contains an array AA[] of NN integers each separated by a space.
+The first line contains N. The second line contains an array A[] of N integers each separated by a space.
 
 Output Format:
 Output the value of the second largest number.
