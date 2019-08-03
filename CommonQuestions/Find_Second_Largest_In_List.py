@@ -1,4 +1,6 @@
-""" ### Find the Second Largest Number in a List/Array ###
+"""
+::QUESTION::
+Find the Second Largest Number in a List/Array
 Ref: https://www.hackerrank.com/challenges/find-second-maximum-number-in-a-list
 
 Input Format:
@@ -15,7 +17,6 @@ NOTE: Take note of duplicates and (-ve) values as well
 # ===============================================================================
 
 """store largest & 2nd Largest element into two variables"""
-
 
 def second_highest_1(A):
     #     N = int(raw_input().strip())
@@ -39,9 +40,7 @@ def second_highest_1(A):
 # ===============================================================================
 # Method 2: Using in-built functions, NOT using sorting
 # ===============================================================================
-
 """Find max element and pop it. Then the max from the remaining is the 2nd largest element"""
-
 
 def second_highest_2(A):
     #     N = int(raw_input().strip())
@@ -57,7 +56,6 @@ def second_highest_2(A):
 # Method 3: Using List Comprehensions
 # ===============================================================================
 """same as above, just instead of remove operations, we create another list without the max element"""
-
 
 def second_highest_3(A):
     #     N = int(raw_input().strip())

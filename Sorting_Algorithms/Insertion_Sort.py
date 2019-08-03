@@ -1,8 +1,12 @@
-#===============================================================================
-""" Insertion Sort - Implemented in Python """
-#===============================================================================
+"""
+@author: Ketan Singh
 
-"""shift optimized"""
+#====================================================
+#   Insertion Sort - Implemented in Python
+#====================================================
+"""
+
+""" shift optimized """
 def insertion_sort(A):
     for i in range(1, len(A)):
         curNum = A[i]
@@ -17,7 +21,7 @@ def insertion_sort(A):
     
         
 
-#driver Function
+# driver Function
 A = [5,4,3,2,1]
 print(A)
 insertion_sort(A)

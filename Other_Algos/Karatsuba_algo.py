@@ -1,11 +1,7 @@
-# -*- coding: utf-8 -*-
 """
-Created on Mon Feb  5 16:46:53 2018
-
 @author: Ketan
 
-Divide-and-Conquer Algorithm Class
-
+Divide-and-Conquer Algorithm
 
 The Karatsuba algorithm is a fast multiplication algorithm.
 >> https://en.wikipedia.org/wiki/Karatsuba_algorithm
